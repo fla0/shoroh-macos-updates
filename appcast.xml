@@ -1,8 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <title>Shoroh</title>
     <link>https://fla0.github.io/shoroh-macos-updates/appcast.xml</link>
     <description>Обновления Шорох</description>
-    </channel>
+    <item>
+      <title>Version 0.1.0</title>
+      <sparkle:version>0.1.0</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <description>Релиз v0.1.0. Автоматическая сборка из shoroh-native-macos @ a30afbf.</description>
+      <pubDate>Thu, 23 Apr 2026 06:15:25 +0000</pubDate>
+      <enclosure url="https://github.com/fla0/shoroh-macos-updates/releases/download/v0.1.0/Shoroh-v0.1.0.zip" length="1699978" type="application/octet-stream" sparkle:edSignature="Rb5ZHxED+M0y/vI4AfC4S3OX70KDg8rognTnArwSwkdXdk+qeu35AG11GgM8JAZxzEOa8AkO1yPbeYETNUgWBQ==" />
+    </item>
+  </channel>
 </rss>
