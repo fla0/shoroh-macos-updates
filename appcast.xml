@@ -10,7 +10,7 @@
       <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
       <description>Релиз v0.4.0. Автоматическая сборка из shoroh-native-macos @ 9bb4a29.</description>
       <pubDate>Mon, 27 Apr 2026 10:55:15 +0000</pubDate>
-      <enclosure url="https://github.com/fla0/shoroh-macos-updates/releases/download/v0.4.0/Shoroh-v0.4.0.zip" length="3066295" type="application/octet-stream" sparkle:edSignature="UkcJ4bNz1CQOFvm6j+YPRGsq6Lglo8n0SccIzxESdZ9p3fT8iQI/548fRAkh0AYpOFLlqbymXF8003I1/ORjAg==" />
+      <enclosure url="https://fla0.github.io/shoroh-macos-updates/releases/Shoroh-v0.4.0.zip" length="3066295" type="application/octet-stream" sparkle:edSignature="UkcJ4bNz1CQOFvm6j+YPRGsq6Lglo8n0SccIzxESdZ9p3fT8iQI/548fRAkh0AYpOFLlqbymXF8003I1/ORjAg==" />
     </item>
     <item>
       <title>Version 0.3.0</title>
@@ -18,7 +18,7 @@
       <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
       <description>Релиз v0.3.0. Автоматическая сборка из shoroh-native-macos @ eea4f64.</description>
       <pubDate>Fri, 24 Apr 2026 14:29:28 +0000</pubDate>
-      <enclosure url="https://github.com/fla0/shoroh-macos-updates/releases/download/v0.3.0/Shoroh-v0.3.0.zip" length="2854561" type="application/octet-stream" sparkle:edSignature="xa+S+LY6zVc2f7SC6zkXB0Q2wvijrD+qgFl29ENtDdLV4WvX8YP74uwLvIx1hYeHm54xE+32xsG20oLIVMYkDQ==" />
+      <enclosure url="https://fla0.github.io/shoroh-macos-updates/releases/Shoroh-v0.3.0.zip" length="2854561" type="application/octet-stream" sparkle:edSignature="xa+S+LY6zVc2f7SC6zkXB0Q2wvijrD+qgFl29ENtDdLV4WvX8YP74uwLvIx1hYeHm54xE+32xsG20oLIVMYkDQ==" />
     </item>
     <item>
       <title>Version 0.2.0</title>
@@ -26,7 +26,7 @@
       <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
       <description>Релиз v0.2.0. Автоматическая сборка из shoroh-native-macos @ b089c4d.</description>
       <pubDate>Fri, 24 Apr 2026 13:23:25 +0000</pubDate>
-      <enclosure url="https://github.com/fla0/shoroh-macos-updates/releases/download/v0.2.0/Shoroh-v0.2.0.zip" length="2711758" type="application/octet-stream" sparkle:edSignature="L+rjX4jMvOuKRAX++xegVLzRYkqiEbJjvlYIAvqkHbnJ1vA93D7t58PfvjEHgrKnfyi/2qK/rXlcaYxID+/VBA==" />
+      <enclosure url="https://fla0.github.io/shoroh-macos-updates/releases/Shoroh-v0.2.0.zip" length="2711758" type="application/octet-stream" sparkle:edSignature="L+rjX4jMvOuKRAX++xegVLzRYkqiEbJjvlYIAvqkHbnJ1vA93D7t58PfvjEHgrKnfyi/2qK/rXlcaYxID+/VBA==" />
     </item>
     <item>
       <title>Version 0.1.0</title>
@@ -34,7 +34,7 @@
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
       <description>Релиз v0.1.0. Автоматическая сборка из shoroh-native-macos @ a30afbf.</description>
       <pubDate>Thu, 23 Apr 2026 06:15:25 +0000</pubDate>
-      <enclosure url="https://github.com/fla0/shoroh-macos-updates/releases/download/v0.1.0/Shoroh-v0.1.0.zip" length="1699978" type="application/octet-stream" sparkle:edSignature="Rb5ZHxED+M0y/vI4AfC4S3OX70KDg8rognTnArwSwkdXdk+qeu35AG11GgM8JAZxzEOa8AkO1yPbeYETNUgWBQ==" />
+      <enclosure url="https://fla0.github.io/shoroh-macos-updates/releases/Shoroh-v0.1.0.zip" length="1699978" type="application/octet-stream" sparkle:edSignature="Rb5ZHxED+M0y/vI4AfC4S3OX70KDg8rognTnArwSwkdXdk+qeu35AG11GgM8JAZxzEOa8AkO1yPbeYETNUgWBQ==" />
     </item>
   </channel>
 </rss>
