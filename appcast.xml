@@ -6,7 +6,7 @@
     <description>Обновления Шорох</description>
     <item>
       <title>Version 0.4.0</title>
-      <sparkle:version>0.4.0</sparkle:version>
+      <sparkle:version>91</sparkle:version>
       <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
       <description>Релиз v0.4.0. Автоматическая сборка из shoroh-native-macos @ 9bb4a29.</description>
       <pubDate>Mon, 27 Apr 2026 10:55:15 +0000</pubDate>
@@ -14,7 +14,7 @@
     </item>
     <item>
       <title>Version 0.3.0</title>
-      <sparkle:version>0.3.0</sparkle:version>
+      <sparkle:version>71</sparkle:version>
       <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
       <description>Релиз v0.3.0. Автоматическая сборка из shoroh-native-macos @ eea4f64.</description>
       <pubDate>Fri, 24 Apr 2026 14:29:28 +0000</pubDate>
@@ -22,7 +22,7 @@
     </item>
     <item>
       <title>Version 0.2.0</title>
-      <sparkle:version>0.2.0</sparkle:version>
+      <sparkle:version>63</sparkle:version>
       <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
       <description>Релиз v0.2.0. Автоматическая сборка из shoroh-native-macos @ b089c4d.</description>
       <pubDate>Fri, 24 Apr 2026 13:23:25 +0000</pubDate>
@@ -30,7 +30,7 @@
     </item>
     <item>
       <title>Version 0.1.0</title>
-      <sparkle:version>0.1.0</sparkle:version>
+      <sparkle:version>8</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
       <description>Релиз v0.1.0. Автоматическая сборка из shoroh-native-macos @ a30afbf.</description>
       <pubDate>Thu, 23 Apr 2026 06:15:25 +0000</pubDate>
