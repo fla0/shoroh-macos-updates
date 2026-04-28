@@ -5,6 +5,14 @@
     <link>https://fla0.github.io/shoroh-macos-updates/appcast.xml</link>
     <description>Обновления Шорох</description>
     <item>
+      <title>Version 1.0.1</title>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <description>Релиз v1.0.1. Автоматическая сборка из shoroh-native-macos @ 915e688.</description>
+      <pubDate>Tue, 28 Apr 2026 16:45:35 +0000</pubDate>
+      <enclosure url="https://fla0.github.io/shoroh-macos-updates/releases/Shoroh-v1.0.1.zip" length="3308552" type="application/octet-stream" sparkle:edSignature="L2GTecdDs9/iW15xL7EwUbfw8FAKWOP9Bd/YVp2ruy0e0lFI3amDalSpob1rP4a9nU1iD8XpS895PQ+qTdCoAg==" />
+    </item>
+    <item>
       <title>Version 1.0.0</title>
       <sparkle:version>1</sparkle:version>
       <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
