@@ -5,16 +5,39 @@
     <link>https://fla0.github.io/shoroh-macos-updates/appcast.xml</link>
     <description>Обновления Шорох</description>
     <item>
+      <title>Version 1.0.13</title>
+      <sparkle:version>161</sparkle:version>
+      <sparkle:shortVersionString>1.0.13</sparkle:shortVersionString>
+      <description><![CDATA[<h3>Добавлено</h3>
+<ul>
+<li>В шаблонах AI помощника переменные вида <code>{тема}</code> и <code>{продукт/услуга}</code>
+  теперь рендерятся мятными бейджами прямо в тексте промпта. Клик по
+  бейджу открывает попап с полем, куда можно вписать конкретное
+  значение для этого запуска. Подстановка происходит при нажатии
+  «Выполнить» — пустые переменные уходят в AI как есть.</li>
+</ul>
+<h3>Изменено</h3>
+<ul>
+<li>Над редактором шаблона появилась подсказка «заполните N перем.»,
+  если в выбранном пресете остались переменные без значения.</li>
+<li>Кнопка «Изменить шаблон» переключает редактор между видом с
+  бейджами и обычным текстовым полем — пригодится, чтобы добавить
+  новые переменные или переписать статический текст.</li>
+</ul>]]></description>
+      <pubDate>Wed, 06 May 2026 10:05:11 +0000</pubDate>
+      <enclosure url="https://fla0.github.io/shoroh-macos-updates/releases/Shoroh-v1.0.13.zip" length="3418733" type="application/octet-stream" sparkle:edSignature="tP/d3fEmzwxhD4wA/yM/rPvQXdwqkNgKbvT1fKKD8/llerSY8nAHdo2y8kTLU3KgmIec+Z+anN8Ldfz17ImvAg==" />
+    </item>
+    <item>
       <title>Version 1.0.12</title>
       <sparkle:version>160</sparkle:version>
       <sparkle:shortVersionString>1.0.12</sparkle:shortVersionString>
-      <description><![CDATA[<h3>Изменено</h3>
-<ul>
-<li>Окно «Доступно обновление» теперь показывает структурированный
+      <description>&lt;h3&gt;Изменено&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Окно «Доступно обновление» теперь показывает структурированный
   список изменений на русском вместо одной строки «Релиз vX.Y.Z».
   Эта запись — первый такой пример: с этого момента каждый релиз
-  будет сопровождаться внятным описанием.</li>
-</ul>]]></description>
+  будет сопровождаться внятным описанием.&lt;/li&gt;
+&lt;/ul&gt;</description>
       <pubDate>Wed, 06 May 2026 09:30:29 +0000</pubDate>
       <enclosure url="https://fla0.github.io/shoroh-macos-updates/releases/Shoroh-v1.0.12.zip" length="3371376" type="application/octet-stream" sparkle:edSignature="CD4KPN1ZJbOS3OtQ4/rp3mqptdOEw8JurefRBJP70bclaOZJ0dYSjBEDl4EFoFT3/gAM0FyL3givW7jlxFtGBA==" />
     </item>
