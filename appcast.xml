@@ -5,6 +5,20 @@
     <link>https://fla0.github.io/shoroh-macos-updates/appcast.xml</link>
     <description>Обновления Шорох</description>
     <item>
+      <title>Version 1.0.12</title>
+      <sparkle:version>160</sparkle:version>
+      <sparkle:shortVersionString>1.0.12</sparkle:shortVersionString>
+      <description><![CDATA[<h3>Изменено</h3>
+<ul>
+<li>Окно «Доступно обновление» теперь показывает структурированный
+  список изменений на русском вместо одной строки «Релиз vX.Y.Z».
+  Эта запись — первый такой пример: с этого момента каждый релиз
+  будет сопровождаться внятным описанием.</li>
+</ul>]]></description>
+      <pubDate>Wed, 06 May 2026 09:30:29 +0000</pubDate>
+      <enclosure url="https://fla0.github.io/shoroh-macos-updates/releases/Shoroh-v1.0.12.zip" length="3371376" type="application/octet-stream" sparkle:edSignature="CD4KPN1ZJbOS3OtQ4/rp3mqptdOEw8JurefRBJP70bclaOZJ0dYSjBEDl4EFoFT3/gAM0FyL3givW7jlxFtGBA==" />
+    </item>
+    <item>
       <title>Version 1.0.11</title>
       <sparkle:version>158</sparkle:version>
       <sparkle:shortVersionString>1.0.11</sparkle:shortVersionString>
