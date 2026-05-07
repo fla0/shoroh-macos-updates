@@ -5,44 +5,60 @@
     <link>https://fla0.github.io/shoroh-macos-updates/appcast.xml</link>
     <description>Обновления Шорох</description>
     <item>
+      <title>Version 1.0.15</title>
+      <sparkle:version>176</sparkle:version>
+      <sparkle:shortVersionString>1.0.15</sparkle:shortVersionString>
+      <description><![CDATA[<h3>Исправлено</h3>
+<ul>
+<li>Шорох снова запускается на Intel-маках. В <code>v1.0.0</code>–<code>v1.0.14</code>
+  бинарь был собран только под Apple Silicon, и пользователи на
+  MacBook / iMac с Intel получали «Нельзя открыть программу
+  „Shoroh“, так как она не поддерживается этим компьютером Mac».
+  Теперь приложение собирается универсальным — одинаково работает
+  и на Apple Silicon, и на Intel.</li>
+</ul>]]></description>
+      <pubDate>Thu, 07 May 2026 07:48:45 +0000</pubDate>
+      <enclosure url="https://fla0.github.io/shoroh-macos-updates/releases/Shoroh-v1.0.15.zip" length="4963490" type="application/octet-stream" sparkle:edSignature="Bbjfl0QE07rOgYKqfYi1al/5wf75WoCXs4QXsoH5tYmlGQKJxnkieW6q+i1na2ezI4gYekiKjNjAaJOWKXJxBA==" />
+    </item>
+    <item>
       <title>Version 1.0.14</title>
       <sparkle:version>172</sparkle:version>
       <sparkle:shortVersionString>1.0.14</sparkle:shortVersionString>
-      <description><![CDATA[<h3>Исправлено</h3>
-<ul>
-<li>Шороха снова можно ставить на macOS 14 (Sonoma) и 15 (Sequoia).
+      <description>&lt;h3&gt;Исправлено&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Шороха снова можно ставить на macOS 14 (Sonoma) и 15 (Sequoia).
   Xcode 26 в последних сборках поднимал минимально-поддерживаемую
   версию до 26.2 — Gatekeeper на более старых системах отказывал
   с ошибкой «не может быть использована». Вернули таргет на 14.0,
-  как и заявлено.</li>
-<li>В шаблонах AI помощника капсула переменной больше не залезает на
-  соседние знаки препинания (<code>.</code>, <code>,</code>, <code>}</code>) — раньше из-за слишком
+  как и заявлено.&lt;/li&gt;
+&lt;li&gt;В шаблонах AI помощника капсула переменной больше не залезает на
+  соседние знаки препинания (&lt;code&gt;.&lt;/code&gt;, &lt;code&gt;,&lt;/code&gt;, &lt;code&gt;}&lt;/code&gt;) — раньше из-за слишком
   широкого паддинга мятная подложка цепляла точку или закрывающую
-  скобку.</li>
-</ul>
-<h3>Добавлено</h3>
-<ul>
-<li>Переменные <code>{тема}</code> / <code>{продукт/услуга}</code> в шаблонах AI помощника
+  скобку.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Добавлено&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Переменные &lt;code&gt;{тема}&lt;/code&gt; / &lt;code&gt;{продукт/услуга}&lt;/code&gt; в шаблонах AI помощника
   теперь отрисовываются мятными капсулами прямо в тексте. Клик по
   капсуле открывает попап с полем для значения; когда вписываешь
-  и подтверждаешь — <code>{тема}</code> мгновенно заменяется на введённый
+  и подтверждаешь — &lt;code&gt;{тема}&lt;/code&gt; мгновенно заменяется на введённый
   текст в шаблоне, дальше его можно править как обычные слова.
-  Дописал в текст <code>{новая}</code> — сразу появилась капсула, удалить её
+  Дописал в текст &lt;code&gt;{новая}&lt;/code&gt; — сразу появилась капсула, удалить её
   можно как обычный текст. Кнопки «Изменить шаблон» больше нет —
-  весь текст всегда редактируется свободно.</li>
-<li>Подсказка о незаполненных переменных теперь склоняется по-русски:
-  «1 уточнение / 2 уточнения / 5 уточнений».</li>
-</ul>
-<h3>Изменено</h3>
-<ul>
-<li>Курсор теперь всегда стрелка во всём приложении. Над текстовыми
+  весь текст всегда редактируется свободно.&lt;/li&gt;
+&lt;li&gt;Подсказка о незаполненных переменных теперь склоняется по-русски:
+  «1 уточнение / 2 уточнения / 5 уточнений».&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Изменено&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Курсор теперь всегда стрелка во всём приложении. Над текстовыми
   полями больше не появляется I-beam, над меню и ссылками — рука.
-  Один общий стиль: меньше дёрганий курсора при работе.</li>
-<li>Попап для значения переменной перерисовали в стиле остальных меню
+  Один общий стиль: меньше дёрганий курсора при работе.&lt;/li&gt;
+&lt;li&gt;Попап для значения переменной перерисовали в стиле остальных меню
   Шороха — белая карточка с мягкой тенью на затемнённой подложке.
   Раньше системный NSPopover в дарк-моде вылезал тёмным фоном и
-  смотрелся чужеродно.</li>
-</ul>]]></description>
+  смотрелся чужеродно.&lt;/li&gt;
+&lt;/ul&gt;</description>
       <pubDate>Wed, 06 May 2026 13:51:46 +0000</pubDate>
       <enclosure url="https://fla0.github.io/shoroh-macos-updates/releases/Shoroh-v1.0.14.zip" length="3435405" type="application/octet-stream" sparkle:edSignature="vptWh0Uh14LvJoSxlB6tb3eopSgHgZ6XJb0YdC0MYKx94tnr8wCTpzKAI/NmgYZR4oWqo+oS9GeVUbj9ENI7Cw==" />
     </item>
