@@ -6,7 +6,7 @@
     <description>Обновления Шорох</description>
     <item>
       <title>Version 1.0.18</title>
-      <sparkle:version>222</sparkle:version>
+      <sparkle:version>223</sparkle:version>
       <sparkle:shortVersionString>1.0.18</sparkle:shortVersionString>
       <description><![CDATA[<h3>Добавлено</h3>
 <ul>
@@ -46,6 +46,51 @@
   окно закрывается автоматически и тариф применяется без
   ручного возврата в Шорох.</li>
 </ul>]]></description>
+      <pubDate>Mon, 18 May 2026 16:40:12 +0000</pubDate>
+      <enclosure url="https://fla0.github.io/shoroh-macos-updates/releases/Shoroh-v1.0.18.zip" length="5422126" type="application/octet-stream" sparkle:edSignature="/noGHm/JdWf92nc8ACvipnzgBFjKk9gsN5vR/MhVyyiVZrgv0JOuOLs9Ueu2mwU0zj441SmZ8H9S1+cSUCv0AA==" />
+    </item>
+    <item>
+      <title>Version 1.0.18</title>
+      <sparkle:version>222</sparkle:version>
+      <sparkle:shortVersionString>1.0.18</sparkle:shortVersionString>
+      <description>&lt;h3&gt;Добавлено&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Запись встречи захватывает звук из приложений вместе с
+  микрофоном в один файл. Содержимое Zoom, Google Meet, Яндекс
+  Телемоста, YouTube в браузере и любых других программ
+  оказывается в той же записи, что и голос пользователя. Работает
+  на macOS 14.4 и выше нативно, без установки сторонних
+  аудио-драйверов. При первом запуске встречи macOS попросит
+  выдать разрешение «System Audio Recording» — после согласия
+  системный звук пишется автоматически в каждой следующей встрече.&lt;/li&gt;
+&lt;li&gt;Выбор источника звука для встреч в Настройках. Доступны вариант
+  «Весь системный звук» (по умолчанию — записывается весь звук,
+  что слышит пользователь) и конкретное приложение из списка
+  запущенных (Chrome, Zoom, Telegram, Telemost, Slack, Discord и
+  прочие). Выбор сохраняется между запусками; при следующей
+  встрече пикер не показывается.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Изменено&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Запись микрофона переведена на AVAudioEngine с прямым доступом
+  к выбранному устройству через Core Audio. AirPods, iPhone в
+  режиме Continuity Camera, USB-гарнитуры, виртуальные драйверы
+  типа BlackHole — записываются корректно. Раньше выбор любого
+  не встроенного микрофона приводил к проблемам совместимости с
+  захватом системного звука; теперь оба канала живут независимо.&lt;/li&gt;
+&lt;li&gt;Кодек итогового файла встречи поднят до AAC 128 kbps моно при
+  48 кГц. Предыдущая версия использовала 32 kbps при 16 кГц —
+  настройка под голосовые заметки оказалась слишком агрессивной
+  для записи с музыкой, видео и звонками внутри.&lt;/li&gt;
+&lt;li&gt;Поле «Backend URL» в Настройках скрыто по умолчанию.
+  Приложение работает с продакшен-сервером &lt;code&gt;api.shoroh.app&lt;/code&gt; сразу
+  после установки. Для разработки и отладки блок открывается
+  через клик по иконке настроек с зажатой клавишей Cmd.&lt;/li&gt;
+&lt;li&gt;Экран оплаты подписки открывается во встроенном окне
+  приложения вместо внешнего браузера. После успешной оплаты
+  окно закрывается автоматически и тариф применяется без
+  ручного возврата в Шорох.&lt;/li&gt;
+&lt;/ul&gt;</description>
       <pubDate>Mon, 18 May 2026 16:25:52 +0000</pubDate>
       <enclosure url="https://fla0.github.io/shoroh-macos-updates/releases/Shoroh-v1.0.18.zip" length="5421829" type="application/octet-stream" sparkle:edSignature="eyiMSw6GvKpUFX4p9eEBdpuXU3vezDx+XJ9rHWCLkMknINnzXipBiqDn1voEWM2bpu4kpe1uFAtkMcTpocMgDQ==" />
     </item>
