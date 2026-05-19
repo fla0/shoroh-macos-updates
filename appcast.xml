@@ -5,23 +5,56 @@
     <link>https://fla0.github.io/shoroh-macos-updates/appcast.xml</link>
     <description>Обновления Шорох</description>
     <item>
+      <title>Version 1.0.21</title>
+      <sparkle:version>233</sparkle:version>
+      <sparkle:shortVersionString>1.0.21</sparkle:shortVersionString>
+      <description><![CDATA[<h3>Исправлено</h3>
+<ul>
+<li>Автообновление через Sparkle. Поверх XPC-фикса из v1.0.20
+  добавлен второй слой исправления: имена mach-сервисов
+  (<code>accelera.Shoroh-spks</code> / <code>-spki</code>) теперь зашиты в подпись
+  основного приложения напрямую, а не через переменную
+  <code>$(PRODUCT_BUNDLE_IDENTIFIER)</code>. Шаг переподписи Sparkle в
+  релизном пайплайне передавал файл entitlements в <code>codesign</code>
+  без раскрытия переменных, и сборки v1.0.17 — v1.0.20 ушли
+  пользователям с буквальными строками <code>$(…)-spks</code> в правах,
+  из-за чего sandbox блокировал обращение к Installer.xpc и
+  Sparkle сообщал «An error occurred while running the updater».
+  Переход v1.0.21 → v1.0.22 → и далее устанавливается
+  автоматически.</li>
+<li>Открытие ссылки восстановления пароля из письма
+  (<code>shoroh://auth/reset?token=…</code>) больше не приводит к падению
+  приложения. В v1.0.19 / v1.0.20 окно установки нового пароля
+  не появлялось: Шорох закрывался в момент клика по ссылке.</li>
+</ul>
+<h3>Важно при переходе с v1.0.17 — v1.0.20</h3>
+<ul>
+<li>Установку v1.0.21 поверх любой из v1.0.17 — v1.0.20 потребуется
+  выполнить вручную один раз: распаковать <code>Shoroh-v1.0.21.zip</code> и
+  переместить бандл в <code>/Applications</code>, заменив существующий. После
+  этого обновления будут устанавливаться сами.</li>
+</ul>]]></description>
+      <pubDate>Tue, 19 May 2026 11:21:39 +0000</pubDate>
+      <enclosure url="https://fla0.github.io/shoroh-macos-updates/releases/Shoroh-v1.0.21.zip" length="5526573" type="application/octet-stream" sparkle:edSignature="Efqvu//1+oP2PyYYZa8TX8QCRFMdoOSpw8GVuOe4CS6HEF4gqjYYRyx9vYAh5wUq5UfhJRbVzBDfNy4vguRkCQ==" />
+    </item>
+    <item>
       <title>Version 1.0.20</title>
       <sparkle:version>227</sparkle:version>
       <sparkle:shortVersionString>1.0.20</sparkle:shortVersionString>
-      <description><![CDATA[<h3>Исправлено</h3>
-<ul>
-<li>Автообновление через Sparkle. Установка обновления больше не
+      <description>&lt;h3&gt;Исправлено&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Автообновление через Sparkle. Установка обновления больше не
   завершается ошибкой «An error occurred while running the
   updater». В сборках v1.0.18 и v1.0.19 встроенные XPC-сервисы
   Sparkle поставлялись без прав на регистрацию имён в launchd,
   из-за чего основное приложение не могло запустить установщик
   после скачивания. v1.0.20 содержит правильные привилегии для
   Downloader.xpc и Installer.xpc; начиная с этой версии переход
-  v1.0.20 → v1.0.21 → и далее выполняется автоматически.</li>
-<li>v1.0.18 и v1.0.19 устанавливаются поверх v1.0.20 единоразово
-  вручную: распаковать <code>Shoroh-v1.0.20.zip</code> и переместить бандл
-  в <code>/Applications</code>, заменив существующий.</li>
-</ul>]]></description>
+  v1.0.20 → v1.0.21 → и далее выполняется автоматически.&lt;/li&gt;
+&lt;li&gt;v1.0.18 и v1.0.19 устанавливаются поверх v1.0.20 единоразово
+  вручную: распаковать &lt;code&gt;Shoroh-v1.0.20.zip&lt;/code&gt; и переместить бандл
+  в &lt;code&gt;/Applications&lt;/code&gt;, заменив существующий.&lt;/li&gt;
+&lt;/ul&gt;</description>
       <pubDate>Tue, 19 May 2026 10:40:45 +0000</pubDate>
       <enclosure url="https://fla0.github.io/shoroh-macos-updates/releases/Shoroh-v1.0.20.zip" length="5526105" type="application/octet-stream" sparkle:edSignature="S6Ha1ZDvC0Z1YH1PtfZb2t1aNB3LiHojX6oYmM4GLkytD57eWqeika8RYfOkoeE9AAcpN5n5WxHdLPAoRzNxAA==" />
     </item>
