@@ -5,27 +5,41 @@
     <link>https://fla0.github.io/shoroh-macos-updates/appcast.xml</link>
     <description>Обновления Шорох</description>
     <item>
+      <title>Version 1.0.24</title>
+      <sparkle:version>239</sparkle:version>
+      <sparkle:shortVersionString>1.0.24</sparkle:shortVersionString>
+      <description><![CDATA[<h3>Изменено</h3>
+<ul>
+<li>Иконка приложения в Dock и Launchpad: мятный фон бренда и
+  белый силуэт логотипа вместо прежней кремовой подложки. В
+  уменьшенных размерах (16 / 32 pt) на системной панели иконка
+  стала заметнее.</li>
+</ul>]]></description>
+      <pubDate>Tue, 19 May 2026 12:03:26 +0000</pubDate>
+      <enclosure url="https://fla0.github.io/shoroh-macos-updates/releases/Shoroh-v1.0.24.zip" length="5506365" type="application/octet-stream" sparkle:edSignature="+MxQ6PSse7Ku5Pklr8qSiBaSTAbMltPHfHcAmiCvzu0ZoCSfPuPfz6iJqr50ffNZxVhDlWvxl8b40DjLl426CQ==" />
+    </item>
+    <item>
       <title>Version 1.0.23</title>
       <sparkle:version>237</sparkle:version>
       <sparkle:shortVersionString>1.0.23</sparkle:shortVersionString>
-      <description><![CDATA[<h3>Исправлено</h3>
-<ul>
-<li>Автообновление через Sparkle. В v1.0.21 и v1.0.22 окно
+      <description>&lt;h3&gt;Исправлено&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Автообновление через Sparkle. В v1.0.21 и v1.0.22 окно
   «Доступно обновление» завершалось ошибкой «An error occurred
   while launching the installer» — установщик Sparkle работал в
   собственной песочнице, и macOS блокировала регистрацию служебного
   права, через которое затем поднимается замена бандла Шорох в
-  <code>/Applications</code>. Установщик переведён в режим без песочницы;
+  &lt;code&gt;/Applications&lt;/code&gt;. Установщик переведён в режим без песочницы;
   начиная с v1.0.23 переход v1.0.23 → v1.0.24 → и далее
-  устанавливается автоматически.</li>
-</ul>
-<h3>Важно при переходе с v1.0.17 — v1.0.22</h3>
-<ul>
-<li>Установку v1.0.23 поверх любой из v1.0.17 — v1.0.22 потребуется
-  выполнить вручную один раз: распаковать <code>Shoroh-v1.0.23.zip</code> и
-  переместить бандл в <code>/Applications</code>, заменив существующий. После
-  этого обновления будут устанавливаться сами.</li>
-</ul>]]></description>
+  устанавливается автоматически.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Важно при переходе с v1.0.17 — v1.0.22&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Установку v1.0.23 поверх любой из v1.0.17 — v1.0.22 потребуется
+  выполнить вручную один раз: распаковать &lt;code&gt;Shoroh-v1.0.23.zip&lt;/code&gt; и
+  переместить бандл в &lt;code&gt;/Applications&lt;/code&gt;, заменив существующий. После
+  этого обновления будут устанавливаться сами.&lt;/li&gt;
+&lt;/ul&gt;</description>
       <pubDate>Tue, 19 May 2026 11:56:26 +0000</pubDate>
       <enclosure url="https://fla0.github.io/shoroh-macos-updates/releases/Shoroh-v1.0.23.zip" length="5526636" type="application/octet-stream" sparkle:edSignature="Pg9LRMDWqsTv3xMb1SH23QjHVnfUp2+1vP9EYbnoHVP1BJVeA/abhv51GWUK0W3veHXJtxTJbc4SBUvijXrECg==" />
     </item>
