@@ -5,47 +5,68 @@
     <link>https://fla0.github.io/shoroh-macos-updates/appcast.xml</link>
     <description>Обновления Шорох</description>
     <item>
+      <title>Version 1.0.20</title>
+      <sparkle:version>227</sparkle:version>
+      <sparkle:shortVersionString>1.0.20</sparkle:shortVersionString>
+      <description><![CDATA[<h3>Исправлено</h3>
+<ul>
+<li>Автообновление через Sparkle. Установка обновления больше не
+  завершается ошибкой «An error occurred while running the
+  updater». В сборках v1.0.18 и v1.0.19 встроенные XPC-сервисы
+  Sparkle поставлялись без прав на регистрацию имён в launchd,
+  из-за чего основное приложение не могло запустить установщик
+  после скачивания. v1.0.20 содержит правильные привилегии для
+  Downloader.xpc и Installer.xpc; начиная с этой версии переход
+  v1.0.20 → v1.0.21 → и далее выполняется автоматически.</li>
+<li>v1.0.18 и v1.0.19 устанавливаются поверх v1.0.20 единоразово
+  вручную: распаковать <code>Shoroh-v1.0.20.zip</code> и переместить бандл
+  в <code>/Applications</code>, заменив существующий.</li>
+</ul>]]></description>
+      <pubDate>Tue, 19 May 2026 10:40:45 +0000</pubDate>
+      <enclosure url="https://fla0.github.io/shoroh-macos-updates/releases/Shoroh-v1.0.20.zip" length="5526105" type="application/octet-stream" sparkle:edSignature="S6Ha1ZDvC0Z1YH1PtfZb2t1aNB3LiHojX6oYmM4GLkytD57eWqeika8RYfOkoeE9AAcpN5n5WxHdLPAoRzNxAA==" />
+    </item>
+    <item>
       <title>Version 1.0.18</title>
       <sparkle:version>226</sparkle:version>
       <sparkle:shortVersionString>1.0.18</sparkle:shortVersionString>
-      <description><![CDATA[<h3>Добавлено</h3>
-<ul>
-<li>Запись встречи захватывает звук из приложений вместе с
+      <description>&lt;h3&gt;Добавлено&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Запись встречи захватывает звук из приложений вместе с
   микрофоном в один файл. Содержимое Zoom, Google Meet, Яндекс
   Телемоста, YouTube в браузере и любых других программ
   оказывается в той же записи, что и голос пользователя. Работает
   на macOS 14.4 и выше нативно, без установки сторонних
   аудио-драйверов. При первом запуске встречи macOS попросит
   выдать разрешение «System Audio Recording» — после согласия
-  системный звук пишется автоматически в каждой следующей встрече.</li>
-<li>Выбор источника звука для встреч в Настройках. Доступны вариант
+  системный звук пишется автоматически в каждой следующей встрече.&lt;/li&gt;
+&lt;li&gt;Выбор источника звука для встреч в Настройках. Доступны вариант
   «Весь системный звук» (по умолчанию — записывается весь звук,
   что слышит пользователь) и конкретное приложение из списка
   запущенных (Chrome, Zoom, Telegram, Telemost, Slack, Discord и
   прочие). Выбор сохраняется между запусками; при следующей
-  встрече пикер не показывается.</li>
-</ul>
-<h3>Изменено</h3>
-<ul>
-<li>Запись микрофона переведена на AVAudioEngine с прямым доступом
+  встрече пикер не показывается.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Изменено&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Запись микрофона переведена на AVAudioEngine с прямым доступом
   к выбранному устройству через Core Audio. AirPods, iPhone в
   режиме Continuity Camera, USB-гарнитуры, виртуальные драйверы
   типа BlackHole — записываются корректно. Раньше выбор любого
   не встроенного микрофона приводил к проблемам совместимости с
-  захватом системного звука; теперь оба канала живут независимо.</li>
-<li>Кодек итогового файла встречи поднят до AAC 128 kbps моно при
+  захватом системного звука; теперь оба канала живут независимо.&lt;/li&gt;
+&lt;li&gt;Кодек итогового файла встречи поднят до AAC 128 kbps моно при
   48 кГц. Предыдущая версия использовала 32 kbps при 16 кГц —
   настройка под голосовые заметки оказалась слишком агрессивной
-  для записи с музыкой, видео и звонками внутри.</li>
-<li>Поле «Backend URL» в Настройках скрыто по умолчанию.
-  Приложение работает с продакшен-сервером <code>api.shoroh.app</code> сразу
+  для записи с музыкой, видео и звонками внутри.&lt;/li&gt;
+&lt;li&gt;Поле «Backend URL» в Настройках скрыто по умолчанию.
+  Приложение работает с продакшен-сервером &lt;code&gt;api.shoroh.app&lt;/code&gt; сразу
   после установки. Для разработки и отладки блок открывается
-  через клик по иконке настроек с зажатой клавишей Cmd.</li>
-<li>Экран оплаты подписки открывается во встроенном окне
+  через клик по иконке настроек с зажатой клавишей Cmd.&lt;/li&gt;
+&lt;li&gt;Экран оплаты подписки открывается во встроенном окне
   приложения вместо внешнего браузера. После успешной оплаты
   окно закрывается автоматически и тариф применяется без
-  ручного возврата в Шорох.</li>
-</ul>]]></description>
+  ручного возврата в Шорох.&lt;/li&gt;
+&lt;/ul&gt;</description>
       <pubDate>Tue, 19 May 2026 10:31:29 +0000</pubDate>
       <enclosure url="https://fla0.github.io/shoroh-macos-updates/releases/Shoroh-v1.0.18.zip" length="5526104" type="application/octet-stream" sparkle:edSignature="NpLV3pn4+h8gGeDcqayTWL3IIRYYNZARGzYzvPHg2vEDmCaRoXSpj8YHBTeCy939uwiyCA6cQXfzHY7z4tkgBg==" />
     </item>
