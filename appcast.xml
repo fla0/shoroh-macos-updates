@@ -5,12 +5,36 @@
     <link>https://fla0.github.io/shoroh-macos-updates/appcast.xml</link>
     <description>Обновления Шорох</description>
     <item>
+      <title>Version 1.0.26</title>
+      <sparkle:version>257</sparkle:version>
+      <sparkle:shortVersionString>1.0.26</sparkle:shortVersionString>
+      <description><![CDATA[<h3>Изменено</h3>
+<ul>
+<li>Верхняя панель приложения собрана в одну строку. Системные
+  кнопки управления окном, имя «Шорох», хлебные крошки текущего
+  экрана и три значка справа (тарифы, настройки, руководство)
+  теперь живут на одной горизонтальной полосе — как в большинстве
+  приложений macOS. Полоса остаётся в тёмной теме независимо от
+  системных настроек, чтобы не перекрашиваться при переключении
+  тем оформления. Кнопка «Назад» переехала из шапки в начало
+  содержимого, прямо над заголовком записи или папки.</li>
+<li>Запуск распознавания на закладке «Транскрипт» стал на один шаг
+  короче. Раньше требовалось сначала выбрать режим («Простой
+  транскрипт» или «Со спикерами»), а затем нажать «Создать
+  транскрипт». Теперь оба варианта — это сразу две кнопки запуска:
+  щелчок по любой из них немедленно стартует распознавание в
+  выбранном режиме. Отдельная кнопка под выбором убрана.</li>
+</ul>]]></description>
+      <pubDate>Mon, 25 May 2026 16:02:23 +0000</pubDate>
+      <enclosure url="https://fla0.github.io/shoroh-macos-updates/releases/Shoroh-v1.0.26.zip" length="5678074" type="application/octet-stream" sparkle:edSignature="GnUVbYA3+YCeo0yChiedm5lmZ9I0qBBnpaHkFFQNUaPmP66IiVsJQuzTETbJcByXIOlGcxGmlyXVDvyd95daDw==" />
+    </item>
+    <item>
       <title>Version 1.0.25</title>
       <sparkle:version>246</sparkle:version>
       <sparkle:shortVersionString>1.0.25</sparkle:shortVersionString>
-      <description><![CDATA[<h3>Добавлено</h3>
-<ul>
-<li>Подсказка о записи встречи. Когда стороннее приложение открывает
+      <description>&lt;h3&gt;Добавлено&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Подсказка о записи встречи. Когда стороннее приложение открывает
   микрофон (Яндекс Телемост, Zoom, Microsoft Teams, Google Meet,
   Webex, Slack, Discord, Skype, FaceTime), macOS показывает
   уведомление «Похоже, началась встреча. Записать звук компьютера
@@ -19,21 +43,21 @@
   Уведомление появляется и при запуске Шороха, когда встреча уже
   идёт. Повторное уведомление в течение десяти минут подавляется.
   При первом срабатывании macOS попросит разрешение на показ
-  уведомлений для Шороха.</li>
-</ul>
-<h3>Изменено</h3>
-<ul>
-<li>Индикатор подключения к серверу в верхней панели подписан
+  уведомлений для Шороха.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Изменено&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Индикатор подключения к серверу в верхней панели подписан
   «Подключение…» вместо «Загружаем модели». Приложение не
   загружает модели локально — только устанавливает связь с
-  сервером распознавания.</li>
-</ul>
-<h3>Исправлено</h3>
-<ul>
-<li>Открытие письма со ссылкой восстановления пароля при уже
+  сервером распознавания.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Исправлено&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Открытие письма со ссылкой восстановления пароля при уже
   открытом окне входа (с подтверждением «Письмо отправлено»)
-  больше не теряет показ формы установки нового пароля.</li>
-</ul>]]></description>
+  больше не теряет показ формы установки нового пароля.&lt;/li&gt;
+&lt;/ul&gt;</description>
       <pubDate>Thu, 21 May 2026 10:22:35 +0000</pubDate>
       <enclosure url="https://fla0.github.io/shoroh-macos-updates/releases/Shoroh-v1.0.25.zip" length="5610054" type="application/octet-stream" sparkle:edSignature="X3y34l4Jh7uuXRp/nFJnLR8K3biYouy1xC6r1/pp4vGdXpsQ5UPDLjaozNAn9nOn4Z/CpRbR9GVGQ5BBgsx/Dw==" />
     </item>
