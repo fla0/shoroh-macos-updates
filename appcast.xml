@@ -5,26 +5,47 @@
     <link>https://fla0.github.io/shoroh-macos-updates/appcast.xml</link>
     <description>Обновления Шорох</description>
     <item>
+      <title>Version 1.0.27</title>
+      <sparkle:version>260</sparkle:version>
+      <sparkle:shortVersionString>1.0.27</sparkle:shortVersionString>
+      <description><![CDATA[<h3>Добавлено</h3>
+<ul>
+<li>Отправка записей в Баунс. В Настройках появился блок «Баунс»,
+  где указывается вебхук-ссылка Автопилота, созданного в сервисе
+  bounc.ai, и — если у триггера включена подпись — секрет подписи.
+  Кнопка «Проверить связь» выполняет пробную доставку и показывает
+  результат: «Подключено» либо причину отказа.</li>
+<li>Кнопка «Отправить в Баунс» на экране записи, рядом с «Удалить».
+  Предлагает отправить транскрипт, результат AI помощника или то и
+  другое сразу; в списке показываются только те варианты, для
+  которых у записи есть содержимое. Переданные материалы Баунс
+  передаёт своим агентам для создания задач. Кнопка появляется
+  только после настройки интеграции.</li>
+</ul>]]></description>
+      <pubDate>Tue, 15 Sep 2026 11:51:19 +0000</pubDate>
+      <enclosure url="https://fla0.github.io/shoroh-macos-updates/releases/Shoroh-v1.0.27.zip" length="5816129" type="application/octet-stream" sparkle:edSignature="XT2V4lI2N1syac5Hs1fFfY+BdmSk/adNrCNQMqCivtbHtlmkMRiCue7EgOxhowVWE8YMLvfOiyMHtqaaR6etDA==" />
+    </item>
+    <item>
       <title>Version 1.0.26</title>
       <sparkle:version>257</sparkle:version>
       <sparkle:shortVersionString>1.0.26</sparkle:shortVersionString>
-      <description><![CDATA[<h3>Изменено</h3>
-<ul>
-<li>Верхняя панель приложения собрана в одну строку. Системные
+      <description>&lt;h3&gt;Изменено&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Верхняя панель приложения собрана в одну строку. Системные
   кнопки управления окном, имя «Шорох», хлебные крошки текущего
   экрана и три значка справа (тарифы, настройки, руководство)
   теперь живут на одной горизонтальной полосе — как в большинстве
   приложений macOS. Полоса остаётся в тёмной теме независимо от
   системных настроек, чтобы не перекрашиваться при переключении
   тем оформления. Кнопка «Назад» переехала из шапки в начало
-  содержимого, прямо над заголовком записи или папки.</li>
-<li>Запуск распознавания на закладке «Транскрипт» стал на один шаг
+  содержимого, прямо над заголовком записи или папки.&lt;/li&gt;
+&lt;li&gt;Запуск распознавания на закладке «Транскрипт» стал на один шаг
   короче. Раньше требовалось сначала выбрать режим («Простой
   транскрипт» или «Со спикерами»), а затем нажать «Создать
   транскрипт». Теперь оба варианта — это сразу две кнопки запуска:
   щелчок по любой из них немедленно стартует распознавание в
-  выбранном режиме. Отдельная кнопка под выбором убрана.</li>
-</ul>]]></description>
+  выбранном режиме. Отдельная кнопка под выбором убрана.&lt;/li&gt;
+&lt;/ul&gt;</description>
       <pubDate>Mon, 25 May 2026 16:02:23 +0000</pubDate>
       <enclosure url="https://fla0.github.io/shoroh-macos-updates/releases/Shoroh-v1.0.26.zip" length="5678074" type="application/octet-stream" sparkle:edSignature="GnUVbYA3+YCeo0yChiedm5lmZ9I0qBBnpaHkFFQNUaPmP66IiVsJQuzTETbJcByXIOlGcxGmlyXVDvyd95daDw==" />
     </item>
