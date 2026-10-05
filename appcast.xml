@@ -5,23 +5,47 @@
     <link>https://fla0.github.io/shoroh-macos-updates/appcast.xml</link>
     <description>Обновления Шорох</description>
     <item>
+      <title>Version 1.0.28</title>
+      <sparkle:version>263</sparkle:version>
+      <sparkle:shortVersionString>1.0.28</sparkle:shortVersionString>
+      <description><![CDATA[<h3>Добавлено</h3>
+<ul>
+<li>API-токены для агентов. В Настройках появился блок «API-токены для
+  агентов»: токен создаётся с названием и сроком действия (30 дней,
+  90 дней, 1 год или бессрочно) и показывается один раз — с кнопкой
+  «Скопировать». В списке видны название, начало токена, дата
+  создания, последнее использование и срок действия. Кнопка
+  «Отозвать» отключает токен сразу. Минуты, потраченные агентом,
+  списываются с баланса владельца токена.</li>
+<li>Записи агентов. Записи, которые бот или скрипт отправил на
+  распознавание с API-токеном, появляются в Шорохе автоматически —
+  с меткой «Агент» и плашкой «Аудио у агента» вместо плеера. Для них
+  доступны переименование, папки, транскрипт со спикерами (копирование
+  и скачивание .md), краткое описание, содержание, AI помощник и
+  отправка в Баунс. Удаление убирает запись только из Шороха: на
+  сервере транскрипт остаётся доступен агенту.</li>
+</ul>]]></description>
+      <pubDate>Mon, 05 Oct 2026 12:04:48 +0000</pubDate>
+      <enclosure url="https://fla0.github.io/shoroh-macos-updates/releases/Shoroh-v1.0.28.zip" length="6115075" type="application/octet-stream" sparkle:edSignature="Yk5hJa3BvBxL/QCd7qiDf/4KnZEizFWMUqLJMZiM7fIe2iRzjExfCouCpVtpW7Hemi0dUD1L7aybr8HVHAefDg==" />
+    </item>
+    <item>
       <title>Version 1.0.27</title>
       <sparkle:version>260</sparkle:version>
       <sparkle:shortVersionString>1.0.27</sparkle:shortVersionString>
-      <description><![CDATA[<h3>Добавлено</h3>
-<ul>
-<li>Отправка записей в Баунс. В Настройках появился блок «Баунс»,
+      <description>&lt;h3&gt;Добавлено&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Отправка записей в Баунс. В Настройках появился блок «Баунс»,
   где указывается вебхук-ссылка Автопилота, созданного в сервисе
   bounc.ai, и — если у триггера включена подпись — секрет подписи.
   Кнопка «Проверить связь» выполняет пробную доставку и показывает
-  результат: «Подключено» либо причину отказа.</li>
-<li>Кнопка «Отправить в Баунс» на экране записи, рядом с «Удалить».
+  результат: «Подключено» либо причину отказа.&lt;/li&gt;
+&lt;li&gt;Кнопка «Отправить в Баунс» на экране записи, рядом с «Удалить».
   Предлагает отправить транскрипт, результат AI помощника или то и
   другое сразу; в списке показываются только те варианты, для
   которых у записи есть содержимое. Переданные материалы Баунс
   передаёт своим агентам для создания задач. Кнопка появляется
-  только после настройки интеграции.</li>
-</ul>]]></description>
+  только после настройки интеграции.&lt;/li&gt;
+&lt;/ul&gt;</description>
       <pubDate>Tue, 15 Sep 2026 11:51:19 +0000</pubDate>
       <enclosure url="https://fla0.github.io/shoroh-macos-updates/releases/Shoroh-v1.0.27.zip" length="5816129" type="application/octet-stream" sparkle:edSignature="XT2V4lI2N1syac5Hs1fFfY+BdmSk/adNrCNQMqCivtbHtlmkMRiCue7EgOxhowVWE8YMLvfOiyMHtqaaR6etDA==" />
     </item>
